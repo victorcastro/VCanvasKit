@@ -2,6 +2,10 @@
 
 This kit contains the essential components in any SwiftUI project.
 
+<p align="center">
+   <img src="https://github.com/victorcastro/VCanvasKit/blob/main/.screenshots/VCanvasKit_Home.png"/>
+</p>
+
 ## Navigation
 
 - [Installation](#-installation)
