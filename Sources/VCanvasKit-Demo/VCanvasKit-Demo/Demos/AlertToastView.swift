@@ -81,7 +81,7 @@ struct AlertToastView: View {
             Spacer()
         }
         .navigationTitle("AlertToast")
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .frame(maxWidth: .infinity)
         .toast(isPresenting: $hudRegular) {
             AlertToast(displayMode: .hud, type: .regular, title: "Hud Regular!", subTitle: "Subtitle of Hud Regular")
         }
