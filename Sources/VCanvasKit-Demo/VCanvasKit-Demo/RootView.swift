@@ -13,10 +13,17 @@ struct RootView: View {
     
     var body: some View {
         NavigationStack {
-            List {
-                NavigationLink("AlertToast", destination: AlertToastView())
-                NavigationLink("Avatar", destination: AvatarKitView())
+            VStack {
+                List {
+                    NavigationLink("AlertToast", destination: AlertToastView())
+                    NavigationLink("Avatar", destination: AvatarKitView())
+                }
+                Spacer()
+                Text("by VictorCastro I/O")
+                    .font(.system(.caption2))
+                    
             }
+            .background(Color(UIColor.systemGray6))
             .navigationTitle("VCanvas Kit")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(trailing: Text("Ver \(versionApp)"))
