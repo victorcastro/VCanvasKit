@@ -17,7 +17,8 @@ struct RootView: View {
                 NavigationLink("AlertToast", destination: AlertToastView())
                 NavigationLink("Avatar", destination: AvatarKitView())
             }
-            .navigationTitle("Components")
+            .navigationTitle("VCanvas Kit")
+            .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(trailing: Text("Ver \(versionApp)"))
             
         }
